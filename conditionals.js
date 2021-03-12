@@ -1,5 +1,17 @@
+var x = 1;
 
-
-if (temperature < -40 || temperature > 40) {
-  console.log("Maybe going outside isn't such a great idea…");
+while (x < 20 ) {
+    if (x % 3 === 0 ) {
+        console.log("Juila");
+    } else if (x % 5 === 0 ) {
+        console.log("James");
+    } else if (x % 3 === 0 && x % 5 === 0){
+        console.log("JuilaJames");
+    } else {
+        console.log(x);
+    }
+    x = x + 1;
+    
 }
+
+
